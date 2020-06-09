@@ -7,9 +7,10 @@ function fetchAndVisualizeData() {
 fetchAndVisualizeData();
 
 function visualizeData(data) {
+  
   visualizeMatchesPlayedPerYear1(data.matchesPlayedPerYear);
   visualizeMatchesPlayedPerYear3(data.matchesWonPerYear);
-  visualizeMatchesPlayedPerYear(data.extraRun);
+  //visualizeMatchesPlayedPerYear(data.extraRun);
   visualizeMatchesPlayedPerYear2(data.economic);
   visualizeMatchesPlayedPerYear4(data.Ques5);
   //visualizeMatchesPlayedPerYear5(data.mathchesPerStadium);
@@ -21,7 +22,7 @@ function visualizeData(data) {
 
 
 
-function visualizeMatchesPlayedPerYear(extraRun) {
+/*function visualizeMatchesPlayedPerYear(extraRun) {
     const seriesData = [];
     for (let year in extraRun) {
     seriesData.push([year, extraRun[year]]);
@@ -57,7 +58,7 @@ function visualizeMatchesPlayedPerYear(extraRun) {
       }
     ]
   });
-}
+} */
 
 
 function visualizeMatchesPlayedPerYear1(matchesPlayedPerYear) {
